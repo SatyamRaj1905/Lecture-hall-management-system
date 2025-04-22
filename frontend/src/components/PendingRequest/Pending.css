@@ -1,0 +1,38 @@
+.pendingitem{
+    display: grid;
+    grid-template-columns: 3fr 1fr 2fr;
+    padding:5px;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+    /* border:solid 3px; */
+    border-radius: 5px;
+    width: 100%;
+    border-color:rgb(108, 119, 119);
+}
+.pendingitemtext{
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: center;
+    /* background-color: blueviolet; */
+    /* padding: 5px; */
+    /* border:solid 1.5px;
+    border-radius:5px; */
+    border-color:rgb(108, 119, 119);
+}
+.pendingitemlt{
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    /* background-color: aquamarine; */
+    border-right:solid 1.5px;
+    /* border-left:solid 1.5px; */
+    /* border-radius:5px; */
+    border-color:rgb(108, 119, 119);
+    /* padding: 5px; */
+}
+/* .pendingpage{
+    display: flex;
+    flex-direction: column;
+} */

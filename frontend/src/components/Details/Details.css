@@ -1,0 +1,72 @@
+.formContainer{
+  /* border: 1px solid black; */
+  width: 500px;
+  border-radius: 1px;
+  padding-top: 30px;
+  border-right: 1px dotted black;
+}
+.mainContainer{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.sideBox{
+  /* border: 1px solid black; */
+  width: 300px;
+  height: 500px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.gridItem{
+  width: 85%;
+}
+
+.new1 {
+  width: 100%;
+}
+
+.buttonBox {
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  justify-content: space-evenly;
+}
+
+.container{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (min-width: 0px) {
+  .formContainer{
+    width: 300px;
+  }
+
+  .sideBox{
+    width: 300px;
+  }
+
+  .mainContainer{
+    flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 1002px) {
+  .formContainer{
+    width: 500px;
+  }
+  .sideBox{
+    width: 500px;
+  }
+  .mainContainer{
+    flex-direction: row;
+    width: 1002px;
+  }
+}

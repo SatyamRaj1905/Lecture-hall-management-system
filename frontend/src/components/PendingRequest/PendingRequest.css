@@ -1,0 +1,22 @@
+.pendingdiv{
+    /* background-color: cyan; */
+    /* width: auto; */
+    /* margin: auto; */
+    height: 100%;
+    display: flex;
+    flex-direction:row ;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.pendingbox{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    /* padding-top: 100px; */
+    align-items: center;
+    /* padding: 10px; */
+    margin: auto;
+    border-radius: 10px;
+}
