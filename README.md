@@ -165,7 +165,7 @@ Contributions are always welcome! Please feel free to open issues or pull reques
 
 ## License
 
-This project is made for academic purposes at LNMIIT. Please contact the author for further use.
+This project is made for academic purposes at LNMIIT. Please contact me for further use.
 
 ## Acknowledgements
 
@@ -174,6 +174,5 @@ This project is made for academic purposes at LNMIIT. Please contact the author 
 
 ---
 
-*Developed by Satyam Raj for LNMIIT.*
 
 
